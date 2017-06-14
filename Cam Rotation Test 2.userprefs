@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{1C8921DB-0F7F-79DE-9903-064D69896819}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PZoom.cs">
+    <Files>
+      <File FileName="Assets/ThirdPersonCamera.cs" Line="15" Column="38" />
+      <File FileName="Assets/PZoom.cs" Line="8" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Cam Rotation Test 2" expanded="True">
+            <Node name="Cam Rotation Test 2.Editor" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Cam_220Rotation_220Test_2202 PreferredExecutionTarget="Unity.Editor" />
+</Properties>
