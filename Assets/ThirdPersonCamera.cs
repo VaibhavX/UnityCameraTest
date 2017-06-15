@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -32,7 +32,9 @@ public class ThirdPersonCamera : MonoBehaviour {
     // Update is called once per frame
     void LateUpdate()
 	{
-		var mouseX = Input.GetAxis("Mouse X");
+		if(Input.touchCount == 1 && Input.touches[0].phase == TouchPhase.Moved)
+        {
+          var mouseX = Input.GetAxis("Mouse X");
 		var mouseY = Input.GetAxis("Mouse Y");
 
 		// If the right click mouse button is down, rotate
@@ -67,7 +69,10 @@ public class ThirdPersonCamera : MonoBehaviour {
 			transform.Rotate(new Vector3(0, 0, -transform.eulerAngles.z));
 
 
-		}
+		}  
+        }
+        
+        
 
 	}
 

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,7 +24,7 @@ public class PZoom : MonoBehaviour {
             distance = Vector2.Distance(touch1, touch2);
 
             float pinchAmount = (previousDistance - distance) * zoomSpeed * Time.deltaTime;
-            Camera.main.transform.Translate(0,0,pinchAmount);
+            Camera.main.transform.Translate(0,0,-pinchAmount);
 
             previousDistance = distance;
         }
